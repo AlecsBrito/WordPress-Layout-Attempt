@@ -5,11 +5,15 @@
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	<?php wp_head();  ?>
 	<style>
-	    body {
+	body {
 	        font-family: "Lucida", sans-serif;
         	color: lightgrey;
         	background-color: #121212;
         }
+
+	#mainContent a{
+		color: green;
+	}
         
         #titleTitle {
         	color: limegreen;
